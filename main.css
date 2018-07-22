@@ -1,6 +1,7 @@
 nav.khung {
   width: 100%;
   height: auto; }
+<<<<<<< HEAD
   nav.khung .box1 {
     width: 100%;
     height: 1000px;
@@ -733,3 +734,132 @@ nav.khung {
       nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-next span.next, nav.khung .box7 .video_tour .slidechu .carousel .box5 .anh a.carousel-control-prev span.next, nav.khung .box5 .anh .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next, nav.khung .box7 .video_tour .slidechu .carousel .box6 .anh1 a.carousel-control-prev span.next, nav.khung .box6 .anh1 .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next {
         top: 70px;
         left: -5px; } }
+=======
+  nav.khung .box8 {
+    float: left;
+    width: 94%;
+    margin-left: 3%;
+    height: 520px; }
+    nav.khung .box8 .hieutieude {
+      float: left;
+      width: 100%;
+      height: auto; }
+      nav.khung .box8 .hieutieude h3 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #ec7aaa;
+        padding-top: 50px; }
+    nav.khung .box8 .hieuslide {
+      margin-top: 2%;
+      float: left;
+      width: 100%;
+      height: 350px; }
+      nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 {
+        float: left;
+        height: 400px; }
+        nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a {
+          text-decoration: none; }
+          nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a img {
+            width: 350px;
+            height: 210px;
+            -webkit-transition: all .9s ease;
+            -o-transition: all .9s ease;
+            transition: all .9s ease; }
+            nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a img:hover {
+              opacity: 0.6; }
+          nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a p {
+            display: block;
+            width: 350px;
+            height: 60px;
+            border-bottom: 1px solid #eb639c;
+            line-height: 60px;
+            padding-left: 10px;
+            color: #eb639c; }
+            nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a p:hover {
+              color: red; }
+            nav.khung .box8 .hieuslide .carousel-inner .carousel-item .col-md-4 a p b {
+              float: right;
+              color: #07f0fc;
+              padding-right: 10px; }
+      nav.khung .box8 .hieuslide a.carousel-control-prev {
+        margin-left: 83%;
+        margin-top: -70px;
+        background-color: lightblue;
+        width: 40px;
+        height: 40px; }
+      nav.khung .box8 .hieuslide a.carousel-control-next {
+        margin-top: -70px;
+        background-color: lightblue;
+        width: 40px;
+        height: 40px;
+        margin-right: 10.5%; }
+  nav.khung .box9 {
+    float: left;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("img/nghia_spa1.jpg");
+    background-size: 100% 500px; }
+    nav.khung .box9 .col-md-12 {
+      height: 500px;
+      width: 100%;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 139, 244, 0.7)), to(rgba(91, 168, 175, 0.7)));
+      background: -webkit-linear-gradient(rgba(241, 139, 244, 0.7), rgba(91, 168, 175, 0.7));
+      background: -o-linear-gradient(rgba(241, 139, 244, 0.7), rgba(91, 168, 175, 0.7));
+      background: linear-gradient(rgba(241, 139, 244, 0.7), rgba(91, 168, 175, 0.7)); }
+      nav.khung .box9 .col-md-12 h1 {
+        padding-top: 100px;
+        color: white;
+        font-family: Times new roman;
+        padding-left: 23%;
+        padding-right: 23%; }
+      nav.khung .box9 .col-md-12 h4, nav.khung .box9 .col-md-12 h5 {
+        margin-top: 70px;
+        font-family: Times new roman;
+        color: white; }
+      nav.khung .box9 .col-md-12 h5 {
+        margin-top: 10px; }
+
+@media screen and (max-width: 768px) {
+  nav.khung .box8 {
+    margin-left: 0;
+    margin-bottom: 0px;
+    height: 350px;
+    width: 100%; }
+    nav.khung .box8 .hieutieude h3 {
+      margin-top: -50px; }
+    nav.khung .box8 .hieuslide {
+      height: 300px; }
+      nav.khung .box8 .hieuslide .carousel .carousel-inner .carousel-item .col-md-4 a img {
+        width: 200px;
+        height: 140px; }
+      nav.khung .box8 .hieuslide .carousel .carousel-inner .carousel-item .col-md-4 a p {
+        width: 200px;
+        padding-left: 0; }
+        nav.khung .box8 .hieuslide .carousel .carousel-inner .carousel-item .col-md-4 a p b {
+          display: none; }
+      nav.khung .box8 .hieuslide .carousel a.carousel-control-prev {
+        margin-left: 83%;
+        margin-top: -6%; }
+      nav.khung .box8 .hieuslide .carousel a.carousel-control-next {
+        margin-top: -6%;
+        margin-right: 7%; }
+  nav.khung .box9 {
+    width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  nav.khung .box8 {
+    display: none; }
+  nav.khung .box9 {
+    height: 250px; }
+    nav.khung .box9 .col-md-12 {
+      height: 250px; }
+      nav.khung .box9 .col-md-12 h1 {
+        font-size: 20pt;
+        padding: 0;
+        padding-top: 10px; }
+      nav.khung .box9 .col-md-12 h4, nav.khung .box9 .col-md-12 h5 {
+        padding-top: 10px;
+        margin: 0; } }
+>>>>>>> 20442b34c379636bf4e498f652f55cc6d341db0d
