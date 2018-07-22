@@ -1,3 +1,143 @@
 nav.khung {
   width: 100%;
   height: auto; }
+  nav.khung .box12 {
+    width: 100%;
+    height: 320px;
+    float: left;
+    background: #272727; }
+    nav.khung .box12 .col-md-3 {
+      height: 300px;
+      float: left; }
+      nav.khung .box12 .col-md-3 h4 {
+        color: white;
+        padding-top: 10%;
+        padding-left: 15%; }
+      nav.khung .box12 .col-md-3 a {
+        text-decoration: none; }
+      nav.khung .box12 .col-md-3 p {
+        color: #bfbfbf;
+        padding-left: 15%;
+        padding-top: 2%;
+        -webkit-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        transition: all .6s ease; }
+        nav.khung .box12 .col-md-3 p i.fas {
+          margin-right: 10px; }
+        nav.khung .box12 .col-md-3 p:hover {
+          color: red; }
+      nav.khung .box12 .col-md-3 h5 {
+        color: white;
+        padding-top: 10%;
+        margin-left: 15%; }
+      nav.khung .box12 .col-md-3 hr {
+        background: white;
+        width: 230px;
+        margin-left: 15%;
+        margin-top: -3%; }
+      nav.khung .box12 .col-md-3 .img {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-top: 8%;
+        margin-left: 8%; }
+        nav.khung .box12 .col-md-3 .img img {
+          width: 100%;
+          height: 100%;
+          border-radius: 2px; }
+        nav.khung .box12 .col-md-3 .img img.zoom {
+          -webkit-transition: all 0.35s ease-in-out;
+          -o-transition: all 0.35s ease-in-out;
+          transition: all 0.35s ease-in-out;
+          cursor: -webkit-zoom-in;
+          cursor: -moz-zoom-in;
+          cursor: zoom-in; }
+          nav.khung .box12 .col-md-3 .img img.zoom:hover, nav.khung .box12 .col-md-3 .img img.zoom:active, nav.khung .box12 .col-md-3 .img img.zoom:focus {
+            -webkit-transform: scale(2.5);
+            -ms-transform: scale(2.5);
+            transform: scale(2.5);
+            position: relative;
+            z-index: 100; }
+  nav.khung .box13 {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background: #202020; }
+    nav.khung .box13 .icon1 {
+      width: 200px;
+      margin-left: 47%; }
+      nav.khung .box13 .icon1 a i.fab {
+        margin-top: 4%;
+        padding-top: 15px;
+        padding-left: 15px;
+        color: white;
+        -webkit-transition: all .6s ease;
+        -o-transition: all .6s ease;
+        transition: all .6s ease; }
+        nav.khung .box13 .icon1 a i.fab:hover {
+          color: orange; }
+    nav.khung .box13 .noidung {
+      height: 30px;
+      margin-left: 42%;
+      margin-top: 10px; }
+      nav.khung .box13 .noidung a {
+        color: white;
+        text-decoration: none; }
+        nav.khung .box13 .noidung a span {
+          padding-top: 3%;
+          padding-left: 2%;
+          color: white; }
+          nav.khung .box13 .noidung a span:hover {
+            color: red; }
+          nav.khung .box13 .noidung a span img {
+            height: 80%;
+            margin-left: 14px; }
+    nav.khung .box13 h6 {
+      float: left;
+      padding-left: 7%;
+      color: white;
+      padding-top: 1%;
+      font-size: 13px;
+      text-align: center;
+      width: 100%; }
+
+@media screen and (max-width: 768px) {
+  nav.khung .box12 {
+    font-size: 10pt;
+    width: 100%;
+    height: 450px; }
+    nav.khung .box12 .col-md-3 {
+      margin: 0; }
+      nav.khung .box12 .col-md-3 hr {
+        width: 100%; }
+      nav.khung .box12 .col-md-3 .img {
+        height: 40px; }
+        nav.khung .box12 .col-md-3 .img img {
+          height: 40px; }
+  nav.khung .box13 {
+    width: 100%; }
+    nav.khung .box13 .icon1 {
+      margin-left: 41%; }
+    nav.khung .box13 .noidung {
+      margin-left: 35%; }
+    nav.khung .box13 h6 {
+      margin-top: 10px; } }
+
+@media screen and (max-width: 360px) {
+  nav.khung .box12 {
+    width: 100%;
+    height: 1200px; }
+    nav.khung .box12 .col-md-3 hr {
+      width: 80%; }
+    nav.khung .box12 .col-md-3 .img {
+      height: 60px; }
+      nav.khung .box12 .col-md-3 .img img {
+        height: 60px; }
+    nav.khung .box12 .ndung {
+      height: 100px; }
+  nav.khung .box13 {
+    width: 100%; }
+    nav.khung .box13 .icon1 {
+      margin-left: 25%; }
+    nav.khung .box13 .noidung {
+      margin-left: 13%; } }

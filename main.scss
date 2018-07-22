@@ -35,10 +35,122 @@ nav.khung{
 	// end box 11
 	// box 12
 	.box12{
+		width: 100%;
+		height: 320px;
+		float: left;
+		background: #272727;
+		.col-md-3{
+			height: 300px;
+			float:left;
+			h4{
+				color:white;
+				padding-top: 10%;
+				padding-left: 15%;
+			}
+			a{
+				text-decoration: none;
+			}
+			p{
+				color: #bfbfbf;
+				padding-left: 15%;
+				padding-top: 2%;
+				transition: all .6s ease;
+				i.fas{
+					margin-right: 10px;
+				}
+				&:hover{
+					color: red;
+				}
+			}				
+			h5{
+				color:white;
+				padding-top: 10%;
+				margin-left: 15%;
+			}
+			hr{
+				background: white;
+				width: 230px;
+				margin-left: 15%;
+				margin-top: -3%;
+			}
+			.img{
+				width: 70px;
+				height: 70px;
+				float:left;
+				margin-top: 8%;
+				margin-left: 8%;
+				img{
+					width: 100%;
+					height: 100%;
+					border-radius: 2px;
+				}
+				img.zoom{
+					transition: all 0.35s ease-in-out;     
+					cursor: -webkit-zoom-in;      
+					cursor: -moz-zoom-in;      
+					cursor: zoom-in; 
+					&:hover, &:active, &:focus{
+						transform: scale(2.5);    
+						position:relative;      
+						z-index:100; 
+					}
+				}
+			}
+		}
 	}
 	// end box 12
 	// box 13
 	.box13{
+		width: 100%;
+		height: 150px;
+		float: left;
+		background: #202020;
+		.icon1{
+			width: 200px;
+			margin-left: 47%;		
+			a{
+				i.fab{
+					margin-top: 4%;
+					padding-top: 15px;
+					padding-left: 15px;
+					color:white;
+					transition: all .6s ease;
+					&:hover{
+						color: orange;
+					}
+				}
+			}
+		}
+		.noidung{
+			height: 30px;
+			margin-left: 42%;
+			margin-top: 10px;
+			a{
+				color:white;
+				text-decoration: none;
+				span{
+					padding-top: 3%;
+					padding-left: 2%;
+					color:white;
+					&:hover{
+						color:red;
+					}
+					img{
+						height: 80%;
+						margin-left: 14px;
+					}
+				}
+			}
+		}
+		h6{
+			float:left;
+			padding-left: 7%;
+			color:white;
+			padding-top: 1%;
+			font-size:13px;
+			text-align: center;
+			width: 100%;
+		}
 	}
 	// end box 13
 }
@@ -77,11 +189,37 @@ nav.khung{
 		}
 		// box 12
 		.box12{
+			font-size: 10pt;
+			width: 100%;
+			height: 450px;
+			.col-md-3{
+				margin: 0;
+				hr{
+					width: 100%;
+				}
+				.img{
+					height: 40px;
+					img{
+						height: 40px;
+					}
+				}
+			}
 		}
 		// end box 12
 
 		// box 13
 		.box13{
+			width: 100%;
+			.icon1{
+				margin-left: 41%;
+			}
+			.noidung{
+				margin-left: 35%;
+			}
+			
+			h6{
+				margin-top: 10px;
+			}
 		}
 		// end box 13
 	}	
@@ -120,10 +258,34 @@ nav.khung{
 		// end box 11
 		// box 12
 		.box12{
+			width: 100%;
+			// margin-top: -10%;
+			height: 1200px;
+			.col-md-3{
+				hr{
+					width: 80%;
+				}
+				.img{
+					height: 60px;
+					img{
+						height: 60px;
+					}
+				}
+			}
+			.ndung{
+				height: 100px;
+			}
 		}
 		// end box 12
 		// box 13
 		.box13{
+			width: 100%;
+			.icon1{
+				margin-left: 25%;
+			}
+			.noidung{
+				margin-left: 13%;
+			}
 		}
 		// end box 13
 	}
