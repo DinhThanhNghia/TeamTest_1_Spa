@@ -19,10 +19,109 @@ nav.khung{
 	// end box 7
 	// box 8
 	.box8{
+		float: left;
+		width: 94%;
+		margin-left: 3%;
+		height: 520px;
+		.hieutieude{
+			float: left;
+			width: 100%;
+			height: auto;
+			h3{
+				float: left;
+				width: 100%;
+				text-align: center;
+				color:#ec7aaa;
+				padding-top: 50px;
+			}
+		}
+		.hieuslide{
+			margin-top: 2%;
+			float: left;
+			width: 100%;
+			height: 350px;
+			.carousel-inner{
+				.carousel-item{
+					.col-md-4{
+						float: left;
+						height: 400px;
+						a{
+							text-decoration: none;
+							img{
+								width: 350px;
+								height: 210px;
+								transition: all .9s ease;
+								&:hover{
+									opacity: 0.6;
+								}
+							}
+							p{
+								display: block;
+								width: 350px;
+								height: 60px;
+								border-bottom: 1px solid #eb639c;
+								line-height: 60px;
+								padding-left: 10px;
+								color: #eb639c;
+								&:hover{
+									color: red;
+								}
+								b{
+									float: right;
+									color: #07f0fc;
+									padding-right: 10px;
+								}
+							}
+						}
+					}
+				}
+			}
+			a.carousel-control-prev{
+				margin-left: 83%;
+				margin-top: -70px;
+				background-color: lightblue;
+				width: 40px;
+				height: 40px;
+			}
+			a.carousel-control-next{
+				margin-top: -70px;
+				background-color: lightblue;
+				width: 40px;
+				height: 40px;
+				margin-right: 10.5%;
+			}
+		}
 	}
 	// end box 8
 	// box 9
 	.box9{
+		float: left;
+		height: 500px;
+		width: 100%;
+		margin-bottom: 20px;
+		background-image: url("img/nghia_spa1.jpg");
+		background-size: 100% 500px;
+		.col-md-12{
+			height: 500px;
+			width: 100%;
+			background: linear-gradient(rgba(241, 139, 244, 0.7),rgba(91, 168, 175, 0.7));
+			h1{
+				padding-top: 100px;
+				color: white;
+				font-family: Times new roman;
+				padding-left: 23%;
+				padding-right: 23%;
+			}
+			h4{
+				margin-top: 70px;
+				font-family: Times new roman;
+				color: white;	
+			}
+			h5{
+				@extend h4;
+				margin-top: 10px;
+			}
+		}
 	}
 	// end box 9
 	// box 10
@@ -62,10 +161,52 @@ nav.khung{
 		// end box8
 		// box8
 		.box8{
+			margin-left: 0;
+			margin-bottom: 0px;
+			height: 350px;
+			width: 100%;
+			.hieutieude{
+				h3{
+					margin-top: -50px;
+				}
+			}
+			.hieuslide{
+				height: 300px;
+				.carousel{
+					.carousel-inner{
+						.carousel-item{
+							.col-md-4{
+								a{
+									img{
+										width: 200px;
+										height: 140px;
+									}
+									p{
+										width: 200px;
+										padding-left: 0;
+										b{
+											display: none;
+										}
+									}
+								}
+							}
+						}
+					}
+					a.carousel-control-prev{
+						margin-left: 83%;
+						margin-top: -6%;
+					}
+					a.carousel-control-next{
+						margin-top: -6%;
+						margin-right: 7%;
+					}
+				}
+			}
 		}
 		// end box 8
 		// box 9
 		.box9{
+			width: 100%;
 		}
 		// end box 9
 		// box 10
@@ -106,9 +247,23 @@ nav.khung{
 		// end box 7
 		// box 8
 		.box8{
+			display: none;
 		}
 		// end box 8
 		.box9{
+			height: 250px;
+			.col-md-12{
+				height: 250px;
+				h1{
+					font-size: 20pt;
+					padding: 0;
+					padding-top: 10px;
+				}
+				h4{
+					padding-top: 10px;
+					margin: 0;
+				}
+			}
 		}
 		// box 10
 		.box10{
