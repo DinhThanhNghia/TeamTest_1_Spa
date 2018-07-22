@@ -348,6 +348,267 @@ nav.khung{
 	// end box 6
 	// box 7
 	.box7{
+		width: 95%;
+		margin-left: 2.5%;
+		.recent_articles{
+			float: left;
+			width: 60%;
+			height: 1000px;
+			h4{
+				font-weight: 400;
+				padding-left: 20px;
+				font-family: serif;
+			}
+			// media
+			.media{
+				margin-top: 30px;
+				margin-left: 20px;
+				margin-bottom: 30px;
+				.media-left{
+					img{
+						width: 250px;
+						height: 170px;
+						transition: all .9s ease-in;
+						&:hover{
+							transform: scale(1.1);
+						}
+					}
+				}
+				.dec{
+					h3{
+						padding-left: 10px;
+						font-weight: 800;
+						color: #5f5f5f;
+					}
+					p{
+						padding-left: 14px;
+						font-size: 12px;
+						font-weight: 600;
+						color: #5f5f5f;
+					}
+					hr{
+						margin-left: 13px;
+					}
+				}
+				.media-body{
+					h4.media-heading{
+						padding-left: 10px;
+						a{
+							text-decoration: none;
+							color: #eb639c;
+						}
+					}
+					li{
+						list-style-type: none;
+						margin-left: 10px;
+						a.icon1{
+							font-size: 11px;
+							font-weight: 700;
+							text-decoration: none;
+							color: #a0a0a0;
+						}
+						a.icon2{
+							@extend a.icon1;
+							padding-left: 20px;
+						}
+					}
+					p{
+						padding-left: 10px;
+						color: #a0a0a0;
+					}
+					button.btn{
+						margin-left: 10px;
+						font-size: 12px;
+					}
+				}
+			}
+			// end media
+		}
+		// end recent_articles
+		// video tour
+		.video_tour{
+			position: relative;
+			float: left;
+			width: 40%;
+			height: 1000px;
+			h4{
+				padding-left: 100px;
+				font-family: serif;
+				font-weight: 400;
+			}
+			// video
+			.video{
+				margin-left: 100px;
+				margin-top: 30px;
+				iframe{
+					width: 350px;
+					height: 180px;
+				}
+			}
+			// end video
+			.Tristique{
+				margin-left: 100px;
+				p{
+					color: #a0a0a0;
+				}
+			}
+			// pic
+			.pic{
+				$bdr: 5px;
+				// vungpic
+				.vungpic{
+					position: relative;
+					width: 350px;
+					height: 180px;
+					background: blue;
+					margin-left: 100px;
+					margin-top: 80px;
+					border-radius: $bdr;
+					img{
+						width: 100%;
+						height: 100%;
+						border-radius: $bdr;
+					}
+				}$mg: 0;
+				$ml: 20px;
+				// end vungpic
+				// bgr
+				.bgr{
+					position: absolute;
+					width: 350px;
+					height: 180px;
+					border-radius: $bdr;
+					top: 0;
+					left: 0;
+					background: linear-gradient(to right, rgba(237,64,176,0.8), rgba(255,255,255,0.1));
+					h6{
+						margin: $mg;
+						padding-top: 20px;
+						margin-left: $ml;
+						color: #f7d9a2;
+					}
+					h1{
+						margin: $mg;
+						margin-left: $ml;
+						font-weight: 700;
+						font-size: 60px;
+						color: white;
+					}
+					p.p1{
+						margin: $mg;
+						margin-left: $ml;
+						font-family: Palatino;
+						color: #fae609;
+					}
+					p.p2{
+						margin: $mg;
+						margin-left: $ml;
+						color: white;
+						font-family: serif;
+					}
+				}
+				// end bgr
+			}
+			// end pic
+			.slidechu{
+				h4{
+					padding-top: 20px;
+				}
+				.carousel{
+					a.carousel-control-prev span.prev{
+						position: absolute;
+						top: -17%;
+						left: 450%;
+						display: block;
+						width: 40px;
+						height: 40px;
+						border-radius: 5px;
+						background: #f1f1f1;
+						i{
+							font-size: 20px;
+							line-height: 40px;
+							color: black;
+						}
+					}
+					a.carousel-control-next span.next{
+						position: absolute;
+						top: -17%;
+						left: -60%;
+						display: block;
+						width: 40px;
+						height: 40px;
+						border-radius: 5px;
+						background: #f1f1f1;
+						i{
+							font-size: 20px;
+							line-height: 40px;
+							color: black;
+						}
+					}
+					.carousel-inner{
+						position: relative;
+						width: 350px;
+						height: 300px;
+						border-radius: 5px;
+						margin: 0;
+						margin-top: 20px;
+						margin-left: 100px;
+						.carousel-item{
+							img{
+								width: 350px;
+								height: 300px;
+							}
+							.ndtrongslide{
+								position: absolute;
+								width: 350px;
+								height: 300px;
+								border-radius: 5px;
+								top: 0;
+								background: rgba(255,255,255,0.5);
+								p{
+									float: left;
+									color: #686666;
+									width: 85%;
+									padding-top: 18px;
+									font-size: 14pt;
+									font-family: Times new roman;
+								}
+								p.nhay{
+									padding-top: 0;
+									font-family: Times new roman;
+									font-size: 50pt;
+									width: 15%;
+									color: #686666;	
+									float: left;
+								}
+								a{
+									float: left;
+									width: 50%;
+									margin-top: 50px;
+									text-align: right;
+									padding-right: 10px;
+									text-decoration: none;
+									color: blue;
+									font-weight: 550;
+									&:hover{
+										color: red;
+									}
+								}
+								img{
+									float: left;
+									margin-top: 30px;
+									width: 50%;
+									width: 70px;
+									height: 70px;
+									border-radius: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		// end video tour
 	}
 	// end box 7
 	// box 8
@@ -510,8 +771,97 @@ nav.khung{
 		// end box 6
 		// box 7
 		.box7{
+			margin-left: 0;
+			width: 100%;
+			float: left;
+			.recent_articles{
+				.media{
+					.media-left{
+						img{
+							width: 200px;
+							height: 150px;
+						}
+					}
+					.media-body{
+						h4.media-heading{
+							font-size: 18px;
+						}
+						p{
+							font-size: 12px;
+						}
+					}
+				}
+			}
+			.video_tour{
+				h4{
+					padding: 0;
+					padding-left: 20px;
+				}
+				.video{
+					margin: 0;
+					margin-top: 30px;
+					margin-left: 20px;
+					iframe{
+						width: 250px;
+						height: 150px;
+					}
+				}
+				.Tristique{
+					margin: 0;
+					margin-left: 20px;
+					p{
+						font-size: 12px;
+					}
+				}
+				.pic{
+					.vungpic{
+						margin: 0;
+						margin-top: 80px;
+						margin-left: 20px;
+						width: 250px;
+						height: 150px;
+						.bgr{
+							width: 250px;
+							height: 150px;
+							h6{
+								padding: 0;
+								padding-top: 5px;
+							}
+						}
+					}
+				}
+				.slidechu{
+					.carousel{
+						.carousel-inner{
+							margin: 0;
+							margin-left: 20px;
+							margin-top: 30px;
+							width: 250px;
+							height: 180px;
+							.carousel-item{
+								.ndtrongslide{
+									background: none;
+									p{
+										display: none;
+									}
+									a{
+										padding-right: 50px;
+									}
+								}
+							}
+						}
+						a.carousel-control-prev span.prev{
+							top: -35%;
+							left: 400%;
+						}
+						a.carousel-control-next span.next{
+							top: -35%;
+						}
+					}
+				}
+			}
 		}
-		// end box8
+		// end box7
 		// box8
 		.box8{
 		}
@@ -664,6 +1014,91 @@ nav.khung{
 		// end box 6
 		// box 7
 		.box7{
+			width: 100%;
+			.recent_articles{
+				float: none;
+				width: 100%;
+				height: 850px;
+				h4{
+					text-align: center;
+				}
+				.media{
+					margin: 0;
+					.dec{
+						display: none;
+					}
+					.media-body{
+						h4.media-heading{
+							font-size: 14px;
+						}
+						li{
+							a.icon1{
+								padding-left: 16px;
+								font-size: 10px;
+							}
+						}
+						p{
+							font-size: 10px;
+							text-align: center;
+						}
+						button.btn{
+							width: 60px;
+							font-size: 6.5px;
+							margin-left: 50px;
+						}
+					}
+				}
+			}
+			.video_tour{
+				width: 100%;
+				height: 980px;
+				h4{
+					text-align: center;
+				}
+				.video{
+					iframe{
+						width: 320px;
+						height: 250px;
+					}
+				}
+				.Tristique{
+					text-align: center;
+					margin-top: 20px;
+				}
+				.pic{
+					.vungpic{
+						margin: 0;
+						margin-left: 20px;
+						width: 320px;
+						height: 200px;
+						.bgr{
+							width: 320px;
+							height: 200px;
+						}
+					}
+				}
+				.slidechu{
+					.carousel{
+						.carousel-inner{
+							width: 320px;
+							.carousel-item{
+								img{
+									width: 100%;
+									height: 100%;
+								}
+							}	
+						}
+						a.carousel-control-prev span.prev{
+							top: 70px;
+							left: 20px;
+						}
+						a.carousel-control-next span.next{
+							top: 70px;
+							left: -5px;
+						}
+					}
+				}
+			}
 		}
 		// end box 7
 		// box 8

@@ -278,6 +278,204 @@ nav.khung {
         color: blue; }
       nav.khung .box6 .anh1 .carousel-control-prev {
         margin-left: 95.1%; }
+  nav.khung .box7 {
+    width: 95%;
+    margin-left: 2.5%; }
+    nav.khung .box7 .recent_articles {
+      float: left;
+      width: 60%;
+      height: 1000px; }
+      nav.khung .box7 .recent_articles h4 {
+        font-weight: 400;
+        padding-left: 20px;
+        font-family: serif; }
+      nav.khung .box7 .recent_articles .media {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 30px; }
+        nav.khung .box7 .recent_articles .media .media-left img {
+          width: 250px;
+          height: 170px;
+          -webkit-transition: all .9s ease-in;
+          -o-transition: all .9s ease-in;
+          transition: all .9s ease-in; }
+          nav.khung .box7 .recent_articles .media .media-left img:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+        nav.khung .box7 .recent_articles .media .dec h3 {
+          padding-left: 10px;
+          font-weight: 800;
+          color: #5f5f5f; }
+        nav.khung .box7 .recent_articles .media .dec p {
+          padding-left: 14px;
+          font-size: 12px;
+          font-weight: 600;
+          color: #5f5f5f; }
+        nav.khung .box7 .recent_articles .media .dec hr {
+          margin-left: 13px; }
+        nav.khung .box7 .recent_articles .media .media-body h4.media-heading {
+          padding-left: 10px; }
+          nav.khung .box7 .recent_articles .media .media-body h4.media-heading a {
+            text-decoration: none;
+            color: #eb639c; }
+        nav.khung .box7 .recent_articles .media .media-body li {
+          list-style-type: none;
+          margin-left: 10px; }
+          nav.khung .box7 .recent_articles .media .media-body li a.icon1, nav.khung .box7 .recent_articles .media .media-body li a.icon2 {
+            font-size: 11px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #a0a0a0; }
+          nav.khung .box7 .recent_articles .media .media-body li a.icon2 {
+            padding-left: 20px; }
+        nav.khung .box7 .recent_articles .media .media-body p {
+          padding-left: 10px;
+          color: #a0a0a0; }
+        nav.khung .box7 .recent_articles .media .media-body button.btn {
+          margin-left: 10px;
+          font-size: 12px; }
+    nav.khung .box7 .video_tour {
+      position: relative;
+      float: left;
+      width: 40%;
+      height: 1000px; }
+      nav.khung .box7 .video_tour h4 {
+        padding-left: 100px;
+        font-family: serif;
+        font-weight: 400; }
+      nav.khung .box7 .video_tour .video {
+        margin-left: 100px;
+        margin-top: 30px; }
+        nav.khung .box7 .video_tour .video iframe {
+          width: 350px;
+          height: 180px; }
+      nav.khung .box7 .video_tour .Tristique {
+        margin-left: 100px; }
+        nav.khung .box7 .video_tour .Tristique p {
+          color: #a0a0a0; }
+      nav.khung .box7 .video_tour .pic .vungpic {
+        position: relative;
+        width: 350px;
+        height: 180px;
+        background: blue;
+        margin-left: 100px;
+        margin-top: 80px;
+        border-radius: 5px; }
+        nav.khung .box7 .video_tour .pic .vungpic img {
+          width: 100%;
+          height: 100%;
+          border-radius: 5px; }
+      nav.khung .box7 .video_tour .pic .bgr {
+        position: absolute;
+        width: 350px;
+        height: 180px;
+        border-radius: 5px;
+        top: 0;
+        left: 0;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(237, 64, 176, 0.8)), to(rgba(255, 255, 255, 0.1)));
+        background: -webkit-linear-gradient(left, rgba(237, 64, 176, 0.8), rgba(255, 255, 255, 0.1));
+        background: -o-linear-gradient(left, rgba(237, 64, 176, 0.8), rgba(255, 255, 255, 0.1));
+        background: linear-gradient(to right, rgba(237, 64, 176, 0.8), rgba(255, 255, 255, 0.1)); }
+        nav.khung .box7 .video_tour .pic .bgr h6 {
+          margin: 0;
+          padding-top: 20px;
+          margin-left: 20px;
+          color: #f7d9a2; }
+        nav.khung .box7 .video_tour .pic .bgr h1 {
+          margin: 0;
+          margin-left: 20px;
+          font-weight: 700;
+          font-size: 60px;
+          color: white; }
+        nav.khung .box7 .video_tour .pic .bgr p.p1 {
+          margin: 0;
+          margin-left: 20px;
+          font-family: Palatino;
+          color: #fae609; }
+        nav.khung .box7 .video_tour .pic .bgr p.p2 {
+          margin: 0;
+          margin-left: 20px;
+          color: white;
+          font-family: serif; }
+      nav.khung .box7 .video_tour .slidechu h4 {
+        padding-top: 20px; }
+      nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.prev {
+        position: absolute;
+        top: -17%;
+        left: 450%;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background: #f1f1f1; }
+        nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.prev i {
+          font-size: 20px;
+          line-height: 40px;
+          color: black; }
+      nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-next span.next, nav.khung .box7 .video_tour .slidechu .carousel .box5 .anh a.carousel-control-prev span.next, nav.khung .box5 .anh .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next, nav.khung .box7 .video_tour .slidechu .carousel .box6 .anh1 a.carousel-control-prev span.next, nav.khung .box6 .anh1 .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next {
+        position: absolute;
+        top: -17%;
+        left: -60%;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background: #f1f1f1; }
+        nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-next span.next i, nav.khung .box7 .video_tour .slidechu .carousel .box5 .anh a.carousel-control-prev span.next i, nav.khung .box5 .anh .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next i, nav.khung .box7 .video_tour .slidechu .carousel .box6 .anh1 a.carousel-control-prev span.next i, nav.khung .box6 .anh1 .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next i {
+          font-size: 20px;
+          line-height: 40px;
+          color: black; }
+      nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner {
+        position: relative;
+        width: 350px;
+        height: 300px;
+        border-radius: 5px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 100px; }
+        nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item img {
+          width: 350px;
+          height: 300px; }
+        nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide {
+          position: absolute;
+          width: 350px;
+          height: 300px;
+          border-radius: 5px;
+          top: 0;
+          background: rgba(255, 255, 255, 0.5); }
+          nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide p {
+            float: left;
+            color: #686666;
+            width: 85%;
+            padding-top: 18px;
+            font-size: 14pt;
+            font-family: Times new roman; }
+          nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide p.nhay {
+            padding-top: 0;
+            font-family: Times new roman;
+            font-size: 50pt;
+            width: 15%;
+            color: #686666;
+            float: left; }
+          nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide a {
+            float: left;
+            width: 50%;
+            margin-top: 50px;
+            text-align: right;
+            padding-right: 10px;
+            text-decoration: none;
+            color: blue;
+            font-weight: 550; }
+            nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide a:hover {
+              color: red; }
+          nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide img {
+            float: left;
+            margin-top: 30px;
+            width: 50%;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%; }
 
 @media screen and (max-width: 768px) {
   nav.khung .box1 {
@@ -346,7 +544,62 @@ nav.khung {
       margin-top: -5%; }
     nav.khung .box6 .anh1 a.carousel-control-prev {
       margin-left: 85%;
-      margin-top: -5%; } }
+      margin-top: -5%; }
+  nav.khung .box7 {
+    margin-left: 0;
+    width: 100%;
+    float: left; }
+    nav.khung .box7 .recent_articles .media .media-left img {
+      width: 200px;
+      height: 150px; }
+    nav.khung .box7 .recent_articles .media .media-body h4.media-heading {
+      font-size: 18px; }
+    nav.khung .box7 .recent_articles .media .media-body p {
+      font-size: 12px; }
+    nav.khung .box7 .video_tour h4 {
+      padding: 0;
+      padding-left: 20px; }
+    nav.khung .box7 .video_tour .video {
+      margin: 0;
+      margin-top: 30px;
+      margin-left: 20px; }
+      nav.khung .box7 .video_tour .video iframe {
+        width: 250px;
+        height: 150px; }
+    nav.khung .box7 .video_tour .Tristique {
+      margin: 0;
+      margin-left: 20px; }
+      nav.khung .box7 .video_tour .Tristique p {
+        font-size: 12px; }
+    nav.khung .box7 .video_tour .pic .vungpic {
+      margin: 0;
+      margin-top: 80px;
+      margin-left: 20px;
+      width: 250px;
+      height: 150px; }
+      nav.khung .box7 .video_tour .pic .vungpic .bgr {
+        width: 250px;
+        height: 150px; }
+        nav.khung .box7 .video_tour .pic .vungpic .bgr h6 {
+          padding: 0;
+          padding-top: 5px; }
+    nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner {
+      margin: 0;
+      margin-left: 20px;
+      margin-top: 30px;
+      width: 250px;
+      height: 180px; }
+      nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide {
+        background: none; }
+        nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide p {
+          display: none; }
+        nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item .ndtrongslide a {
+          padding-right: 50px; }
+    nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.prev {
+      top: -35%;
+      left: 400%; }
+    nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-next span.next, nav.khung .box7 .video_tour .slidechu .carousel .box5 .anh a.carousel-control-prev span.next, nav.khung .box5 .anh .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next, nav.khung .box7 .video_tour .slidechu .carousel .box6 .anh1 a.carousel-control-prev span.next, nav.khung .box6 .anh1 .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next {
+      top: -35%; } }
 
 @media screen and (max-width: 360px) {
   nav.khung .box1 {
@@ -425,4 +678,58 @@ nav.khung {
       nav.khung .box5 .anh .carousel a.carousel-control-next, nav.khung .box5 .anh .carousel a.carousel-control-prev {
         margin-top: -10%; }
   nav.khung .box6 {
-    display: none; } }
+    display: none; }
+  nav.khung .box7 {
+    width: 100%; }
+    nav.khung .box7 .recent_articles {
+      float: none;
+      width: 100%;
+      height: 850px; }
+      nav.khung .box7 .recent_articles h4 {
+        text-align: center; }
+      nav.khung .box7 .recent_articles .media {
+        margin: 0; }
+        nav.khung .box7 .recent_articles .media .dec {
+          display: none; }
+        nav.khung .box7 .recent_articles .media .media-body h4.media-heading {
+          font-size: 14px; }
+        nav.khung .box7 .recent_articles .media .media-body li a.icon1, nav.khung .box7 .recent_articles .media .media-body li a.icon2 {
+          padding-left: 16px;
+          font-size: 10px; }
+        nav.khung .box7 .recent_articles .media .media-body p {
+          font-size: 10px;
+          text-align: center; }
+        nav.khung .box7 .recent_articles .media .media-body button.btn {
+          width: 60px;
+          font-size: 6.5px;
+          margin-left: 50px; }
+    nav.khung .box7 .video_tour {
+      width: 100%;
+      height: 980px; }
+      nav.khung .box7 .video_tour h4 {
+        text-align: center; }
+      nav.khung .box7 .video_tour .video iframe {
+        width: 320px;
+        height: 250px; }
+      nav.khung .box7 .video_tour .Tristique {
+        text-align: center;
+        margin-top: 20px; }
+      nav.khung .box7 .video_tour .pic .vungpic {
+        margin: 0;
+        margin-left: 20px;
+        width: 320px;
+        height: 200px; }
+        nav.khung .box7 .video_tour .pic .vungpic .bgr {
+          width: 320px;
+          height: 200px; }
+      nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner {
+        width: 320px; }
+        nav.khung .box7 .video_tour .slidechu .carousel .carousel-inner .carousel-item img {
+          width: 100%;
+          height: 100%; }
+      nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.prev {
+        top: 70px;
+        left: 20px; }
+      nav.khung .box7 .video_tour .slidechu .carousel a.carousel-control-next span.next, nav.khung .box7 .video_tour .slidechu .carousel .box5 .anh a.carousel-control-prev span.next, nav.khung .box5 .anh .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next, nav.khung .box7 .video_tour .slidechu .carousel .box6 .anh1 a.carousel-control-prev span.next, nav.khung .box6 .anh1 .box7 .video_tour .slidechu .carousel a.carousel-control-prev span.next {
+        top: 70px;
+        left: -5px; } }
