@@ -718,12 +718,184 @@ nav.khung{
 		}
 	}
 	// end box 9
-	// box 10
+		// box 10
 	.box10{
+		width: 95%;
+		margin-left: 2.5%;
+		height: 510px;
+		float: left;		
+		#carouselExampleFade{
+			.carousel-control-prev{
+				width: 40px;
+				height: 40px;
+				background: grey;
+				margin-left: 85%;
+			}
+			.carousel-control-next{
+				width: 40px;
+				height: 40px;
+				background: grey;
+				margin-right: 8.5%;
+			}
+			h3{
+				text-align: center;
+			}
+			.carousel-inner{
+				.card-deck{
+					margin-top: 50px;
+					.card{
+						// background: none;
+						border: none;
+						.card-img-top{
+							height: 150px;
+							width: 150px;
+							border-radius: 50%;
+							margin: 0 auto;
+							border: 1px solid #fc07aa;
+						}
+						.card-body{
+							h5{
+								text-align: center;
+								a{
+									text-decoration: none;
+									color: black;
+								}
+							}
+							p{
+								text-align: center;
+								color: grey;
+							}
+							hr{
+								width: 20%;
+							}
+							ul{
+								li{
+									float: left;
+									list-style-type: none;
+									i{
+										color: black;
+										padding-left: 15px;
+										&:hover{
+											color: orange;
+										}
+									}
+								}
+							}
+							.btn{
+								background: #fc07aa;
+								color: white;
+								border: none;
+								margin-left: 33.3%;
+								margin-top: 20px;
+								font-weight: bold;
+								transition: all .8s ease-in;
+								&:hover{
+									color: red;
+									background-color: pink;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	// end box 10
 	// box 11
 	.box11{
+		width: 100%;
+		height: 500px;
+		background-image: url("img/vuongbanner.jpg");
+		background-size: 100% 500px;
+		float: left;
+		.col-md-12{
+			width: 100%;
+			height: 500px;
+			background: linear-gradient(rgba(241, 139, 244, 0.9),rgba(91, 168, 175, 0.9));
+			.col-md-6{
+				float: left;
+				#carouselExample{
+					width: 98%;
+					margin-left: 2%;
+					height: 200px;
+					.carousel-inner{
+						.carousel-item{
+							p{
+								width: 90%;
+								padding-left: 8%;
+								color: white;
+								font-size: 16pt;
+								padding-top: 30px;
+								a{
+									color: white;
+									&:hover{
+										color: blue;
+									}
+								}
+								i{
+									font-size: 12pt;
+								}
+							}				
+						}
+					}
+					a.icon{
+						width: 40px;
+						height: 40px;
+						position: absolute;
+						line-height: 40px;
+						text-align: center;
+						left: 47%;
+						bottom: 0;
+						color: white;
+					}
+					a.carousel-control-prev{
+						width: 40px;
+						height: 40px;
+						position: absolute;
+						top: 160px;
+						left: 39%;
+					}
+					a.carousel-control-next{
+						width: 40px;
+						height: 40px;
+						top: 160px;
+						right: 39%;
+						position: absolute;
+					}
+				}
+				h5{
+					color: white;
+					text-align: center;
+					padding-top: 100px;
+				}
+				.anh{
+					width: 100%;
+					height: 100px;
+					margin-top: 2%;
+					// background: red;
+					.col-md-2{
+						float: left;
+						// background: blue;
+						margin-left: 2%;
+						img{
+							width: 80px;
+							height: 80px;
+						}
+						img.zoom{
+							transition: all 0.35s ease-in-out;     
+							cursor: -webkit-zoom-in;      
+							cursor: -moz-zoom-in;      
+							cursor: zoom-in; 
+							&:hover, &:active, &:focus{
+								transform: scale(2.5);    
+								position:relative;      
+								z-index:100; 
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 	// end box 11
 	// box 12
@@ -1013,10 +1185,49 @@ nav.khung{
 		// end box 9
 		// box 10
 		.box10{
+			width: 100%;
+			margin-left: 0;
+			#carouselExampleFade{
+				.carousel-control-prev{
+					margin-left: 80%;
+				}
+				.carousel-inner{
+					.card-deck{
+						margin-top: 20px;
+						.card{
+							margin-top: 50px;
+							.card-body{
+								ul{
+									margin-left: -30px;
+									li{
+										list-style-type: none;
+										i{
+											font-size: 10pt;
+											padding-left:5px;
+										}
+									}
+								}
+								.btn{
+									margin-left: 12%;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		// end box 10
 		// box 11
 		.box11{
+			width: 100%;
+			.col-md-6{
+				height: 350px;
+				p.p{
+					small{
+						padding-left: 20px;
+					}
+				}
+			}
 		}
 		// box 12
 		.box12{
@@ -1264,10 +1475,79 @@ nav.khung{
 		}
 		// box 10
 		.box10{
+			width: 100%;
+			height: 1800px;
+			h3{
+				font-size: 15pt;
+			}
+			#carouselExampleFade{
+				a.carousel-control-prev{
+					margin-left: 5%;
+					margin-top: 45%;
+				}
+				a.carousel-control-next{
+					margin-right: 5%;
+					margin-top: 45%;
+				}
+				.carousel-inner{
+					.card-deck{
+						.card{
+							.card-body{
+								ul{
+									margin-left: 20px;
+									li{
+										i{
+											font-size: 20pt;
+											padding-left:5px;
+										}
+									}
+								}
+								.btn{
+									margin-left: 33.3%;
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		// end box 10
 		// box 11
 		.box11{
+			width: 100%;
+			background-image: no-repeat;
+			height: 1100px;
+			background-size: 100% 1100px;
+			.col-md-12{
+				height: 1100px;
+				.col-md-6{
+					.anh{
+						float: left;
+						width: 50%;
+						height: 500px;
+						.col-md-2{
+							margin-top: 20px;
+							img{
+								width: 120px;
+							}
+						}
+					}
+					#carouselExample{
+						height: 300px;
+						a.carousel-control-prev{
+							top: 260px;
+							left: 30%;
+						}
+						a.carousel-control-next{
+							top: 260px;
+							right: 30%;
+						}
+						a.icon{
+							left: 43.5%;
+						}
+					}
+				}
+			}	
 		}
 		// end box 11
 		// box 12
