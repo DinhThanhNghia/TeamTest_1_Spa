@@ -7,10 +7,140 @@ nav.khung{
 	// end box 1
 	// box 5
 	.box5{
+		width: 100%;
+		height: 450px;
+		background: none;
+		.b5{
+			float: left;
+			height: 150px;
+			background: white;
+			h2{
+				margin-top: 2%;
+				color: #ff3838;
+			}
+			p{
+				color: blue;
+				a{
+					text-decoration: none;
+					font-size: 14pt;
+				}
+			}
+		}
+		.anh{
+			@extend .b5;
+			height: 300px;
+			background: none;
+			.anh{
+				float: left;
+				width: 25%;
+				height: 100%;
+				img{
+					float: left;
+					width: 100%;
+					height: 300px;
+					transition: all .9s ease-in;
+					&:hover{
+						transform: scale(1.05);
+					}
+				}
+			}
+			.carousel-control-next{
+				width:30px;
+				height:30px;
+				background:#6a9ee2;
+				margin-top:-4%;
+			}
+			.carousel-control-prev{
+				@extend .carousel-control-next;
+				margin-left:95.1%;
+			}
+		}
 	}
 	// end box 5
 	// box 6
 	.box6{
+		width: 100%;
+		height: 430px;
+		background: linear-gradient(to right,#f444eb,#6f7ff7);
+		.b6{
+			float:left;
+			height:100px;
+			background:none;
+			h2{
+				text-align:center;
+				padding-top:1%;
+				color:white;
+			}
+			p{
+				a{
+					text-decoration: none;
+					color: white;
+					font-size: 14pt;
+					transition: all 1s ease-in;
+					&:hover{
+						color: blue;
+					}
+				}
+			}
+		}
+		.anh1{
+			float:left;
+			height:350px;
+			background:none;
+			.pic{
+				float:left;
+				width: 28.5%;
+				height:300px;
+				margin-left: 37px;
+				position:relative;
+				overflow:hidden;
+				img{
+					float:left;
+					width:100%;
+					height:300px;
+					transition:1s;
+					overflow:hidden;
+					&:hover{
+						transform: scale(1.2);
+					}
+				}
+				.noidung{
+					position:absolute;
+					width:100%;
+					height: 40px;
+					background: rgba(242, 246, 252, 0.5);
+					float:left;
+					z-index:5;
+					bottom: 0;
+					left: 0px;
+					transition: all .9s ease-in;
+					a{
+						text-decoration: none;
+						p{
+							color:blue;
+							line-height: 40px;
+							strong{
+								color:#f740cf;
+							}
+						}
+					}
+					&:hover{
+						background-color: rgba(170, 165, 165, 0.5);
+					}
+				}
+			}
+			.carousel-control-next{
+				width:30px;
+				height:32px;
+				background:white;
+				margin-top:-4%;
+				color:blue;
+			}
+			.carousel-control-prev{
+				@extend .carousel-control-next;
+				margin-left:95.1%;
+			}
+		}
 	}
 	// end box 6
 	// box 7
@@ -51,9 +181,54 @@ nav.khung{
 		// end box 1
 		// box 5
 		.box5{
+			margin-left: 0;
+			width: 100%;
+			.anh{
+				.carousel{
+					.carousel-inner{
+						.carousel-item{
+							.anh{
+								img{
+									height: 200px;
+								}
+							}
+						}
+					}
+					.carousel-control-prev{
+						margin-left:92%;
+						margin-top:-6%;
+					}
+					.carousel-control-next{
+						margin-top:-6%;
+					}
+				}
+			}
 		}
 		// box 6
 		.box6{
+			margin-left: 0;
+			width: 100%;
+			.anh1{
+				.carousel{
+					.carousel-inner{
+						.pic{
+							margin-left: 25px;
+							height: 200px;
+							img{
+								height: 200px;
+							}
+						}
+					}
+				}
+				a.carousel-control-next{
+					margin-right: 6%;
+					margin-top: -5%;
+				}
+				a.carousel-control-prev{
+					margin-left: 85%;
+					margin-top: -5%;
+				}
+			}
 		}
 		// end box 6
 		// box 7
@@ -94,10 +269,35 @@ nav.khung{
 		// end box 1
 		// box 5
 		.box5{
+			margin-top: 40px;
+			width: 100%;
+			height: 120px;
+			.anh{
+				height: 120px;	
+				.carousel{
+					.carousel-inner{
+						.carousel-item{
+							.anh{
+								img{
+									height: 100px;
+								}
+							}
+						}
+					}
+					a.carousel-control-prev{
+						margin-top:-10%;
+						margin-left:82%;
+					}
+					a.carousel-control-next{
+						margin-top:-10%;
+					}
+				}
+			}	
 		}
 		// end box 5
 		// box 6
 		.box6{
+			display: none;
 		}
 		// end box 6
 		// box 7
