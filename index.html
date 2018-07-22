@@ -12,10 +12,127 @@
 	<title>Document</title>
 </head>
 <body>
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+				document.getElementById("navbar").style.top = "0px";
+				document.getElementById("navbar").style.background = "rgba(135, 175, 12, 0.7)"
+			} else {
+				document.getElementById("navbar").style.top = "70px";
+				document.getElementById("navbar").style.background = "rgba(237, 241, 247, 0.4)"
+			}
+		}
+	</script>
 	<!-- khung -->
 	<nav class="khung position-relative">
 		<!-- box1 -->
 		<div class="box1">
+			<!-- header -->
+			<div class="header">
+				<nav class="nav">
+					<a class="nav-link" href="#"><i class="fab fa-wordpress"></i></a>
+					<a class="nav-link" href="#"><i class="fas fa-clock"> </i> Skin Beauty</a>
+					<a class="nav-link" href="#"><i class="fas fa-sync-alt"> </i> 1</a>
+					<a href="#" class="nav-link"><i class="fas fa-comment"> </i> 0</a>
+					<a href="#" class="nav-link"><i class="fas fa-plus"> </i> New</a>
+					<a href="#" class="nav-link"><i class="fas fa-pencil-alt"> </i> Edit Page</a>
+					<a href="#" class="info">Howdy,John Smith <i class="far fa-user"></i></a>
+					<a href="" class="find"><i class="fas fa-search"></i></a>
+				</nav>
+			</div>
+			<!-- header2 -->
+			<div class="header2">
+				<nav class="nav">
+					<a class="nav-link" href="#"><i class="far fa-clock"></i> Mon - Fri: 09:00 - 17:00</a>
+					<p>/</p>
+					<a class="nav-link" href="#"><i class="fas fa-mouse-pointer"></i> 4th Floor.BB Plaza Bd. Anton St.</a>
+					<a class="nav-link right" href="#"><i class="far fa-envelope"></i> contact@beautyskin.vn</a>
+					<p>/</p>
+					<a class="nav-link sdt" href="#"><i class="fas fa-phone"></i> 1800 - 222 - 222</a>
+					<p>/</p>
+					<a href="#" class="nav-link"><i class="fab fa-facebook-f listicon"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-google listicon"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-tumblr listicon"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-twitter listicon"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-vimeo-v listicon"></i></a>
+				</nav>
+			</div>
+			<!-- menu -->
+			<div class="menu position-fixed sticky-top" id="navbar">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="#" id="logo" data-toggle="tooltip" data-placement="bottom" title="Beauty center - Spa Massage chuyên nghiệp">Skin <span>Beauty</span> <i>Beauty center</i></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item" >
+								<a class="nav-link" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Page</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Products</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Special Offers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Shortcodes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fas fa-cart-plus"></i> <sup>1</sup></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- content -->
+			<div class="content">
+				<h2 class="text-center">Wellcome to</h2>
+				<div class="double-line"></div>
+				<h1 class="text-center">Skin <span>Beauty</span></h1>
+				<h3 class="text-center"><i>The best medical center for your skin</i></h3>
+				<a href="#" class="btn">LASTEST PROMOTIONS!</a>
+			</div>
+			<!-- box card -->
+			<div class="boxcard">
+				<div class="col-md-4">
+					<div class="noidung">
+						<i class="fas fa-cannabis fa-2x"></i>
+						<h4 class="text-center">Lastest Technology</h4>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, suscipit dolores eligendi hic molestias perferendis ad a? Libero, eos, qui.</p>
+						<a href="#" class="button">LEARN MORE</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="noidung">
+						<i class="fas fa-certificate fa-2x"></i>
+						<h4 class="text-center">Certified Institude</h4>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, suscipit dolores eligendi hic molestias perferendis ad a? Libero, eos, qui.</p>
+						<a href="#" class="button">LEARN MORE</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="noidung">
+						<i class="fas fa-stethoscope fa-2x"></i>
+						<h4 class="text-center">Best Doctors</h4>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, suscipit dolores eligendi hic molestias perferendis ad a? Libero, eos, qui.</p>
+						<a href="#" class="button">LEARN MORE</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- end box1 -->
 		<!-- box 5-->
