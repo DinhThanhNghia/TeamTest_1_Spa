@@ -1,3 +1,209 @@
 nav.khung {
   width: 100%;
   height: auto; }
+  nav.khung .box10 {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 510px;
+    float: left; }
+    nav.khung .box10 #carouselExampleFade .carousel-control-prev {
+      width: 40px;
+      height: 40px;
+      background: grey;
+      margin-left: 85%; }
+    nav.khung .box10 #carouselExampleFade .carousel-control-next {
+      width: 40px;
+      height: 40px;
+      background: grey;
+      margin-right: 8.5%; }
+    nav.khung .box10 #carouselExampleFade h3 {
+      text-align: center; }
+    nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck {
+      margin-top: 50px; }
+      nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card {
+        border: none; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-img-top {
+          height: 150px;
+          width: 150px;
+          border-radius: 50%;
+          margin: 0 auto;
+          border: 1px solid #fc07aa; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body h5 {
+          text-align: center; }
+          nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body h5 a {
+            text-decoration: none;
+            color: black; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body p {
+          text-align: center;
+          color: grey; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body hr {
+          width: 20%; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li {
+          float: left;
+          list-style-type: none; }
+          nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li i {
+            color: black;
+            padding-left: 15px; }
+            nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li i:hover {
+              color: orange; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body .btn {
+          background: #fc07aa;
+          color: white;
+          border: none;
+          margin-left: 33.3%;
+          margin-top: 20px;
+          font-weight: bold;
+          -webkit-transition: all .8s ease-in;
+          -o-transition: all .8s ease-in;
+          transition: all .8s ease-in; }
+          nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body .btn:hover {
+            color: red;
+            background-color: pink; }
+  nav.khung .box11 {
+    width: 100%;
+    height: 500px;
+    background-image: url("img/vuongbanner.jpg");
+    background-size: 100% 500px;
+    float: left; }
+    nav.khung .box11 .col-md-12 {
+      width: 100%;
+      height: 500px;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 139, 244, 0.9)), to(rgba(91, 168, 175, 0.9)));
+      background: -webkit-linear-gradient(rgba(241, 139, 244, 0.9), rgba(91, 168, 175, 0.9));
+      background: -o-linear-gradient(rgba(241, 139, 244, 0.9), rgba(91, 168, 175, 0.9));
+      background: linear-gradient(rgba(241, 139, 244, 0.9), rgba(91, 168, 175, 0.9)); }
+      nav.khung .box11 .col-md-12 .col-md-6 {
+        float: left; }
+        nav.khung .box11 .col-md-12 .col-md-6 #carouselExample {
+          width: 98%;
+          margin-left: 2%;
+          height: 200px; }
+          nav.khung .box11 .col-md-12 .col-md-6 #carouselExample .carousel-inner .carousel-item p {
+            width: 90%;
+            padding-left: 5%;
+            color: white;
+            font-size: 16pt;
+            padding-top: 30px; }
+            nav.khung .box11 .col-md-12 .col-md-6 #carouselExample .carousel-inner .carousel-item p a {
+              color: white; }
+              nav.khung .box11 .col-md-12 .col-md-6 #carouselExample .carousel-inner .carousel-item p a:hover {
+                color: blue; }
+            nav.khung .box11 .col-md-12 .col-md-6 #carouselExample .carousel-inner .carousel-item p i {
+              font-size: 12pt; }
+          nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.icon {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            line-height: 40px;
+            text-align: center;
+            left: 47%;
+            bottom: 0;
+            color: white; }
+          nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.carousel-control-prev {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 160px;
+            left: 39%; }
+          nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.carousel-control-next {
+            width: 40px;
+            height: 40px;
+            top: 160px;
+            right: 39%;
+            position: absolute; }
+        nav.khung .box11 .col-md-12 .col-md-6 h5 {
+          color: white;
+          text-align: center;
+          padding-top: 100px; }
+        nav.khung .box11 .col-md-12 .col-md-6 .anh {
+          width: 100%;
+          height: 100px;
+          margin-top: 2%; }
+          nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 {
+            float: left;
+            margin-left: 2%; }
+            nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img {
+              width: 80px;
+              height: 80px; }
+            nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img.zoom {
+              -webkit-transition: all 0.35s ease-in-out;
+              -o-transition: all 0.35s ease-in-out;
+              transition: all 0.35s ease-in-out;
+              cursor: -webkit-zoom-in;
+              cursor: -moz-zoom-in;
+              cursor: zoom-in; }
+              nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img.zoom:hover, nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img.zoom:active, nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img.zoom:focus {
+                -webkit-transform: scale(2.5);
+                -ms-transform: scale(2.5);
+                transform: scale(2.5);
+                position: relative;
+                z-index: 100; }
+
+@media screen and (max-width: 768px) {
+  nav.khung .box10 {
+    width: 100%;
+    margin-left: 0; }
+    nav.khung .box10 #carouselExampleFade .carousel-control-prev {
+      margin-left: 80%; }
+    nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck {
+      margin-top: 20px; }
+      nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card {
+        margin-top: 50px; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul {
+          margin-left: -30px; }
+          nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li {
+            list-style-type: none; }
+            nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li i {
+              font-size: 10pt;
+              padding-left: 5px; }
+        nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body .btn {
+          margin-left: 12%; }
+  nav.khung .box11 {
+    width: 100%; }
+    nav.khung .box11 .col-md-6 p.p small {
+      padding-left: 20px; } }
+
+@media screen and (max-width: 360px) {
+  nav.khung .box10 {
+    width: 100%;
+    height: 1800px; }
+    nav.khung .box10 h3 {
+      font-size: 15pt; }
+    nav.khung .box10 #carouselExampleFade a.carousel-control-prev {
+      margin-left: 5%;
+      margin-top: 45%; }
+    nav.khung .box10 #carouselExampleFade a.carousel-control-next {
+      margin-right: 5%;
+      margin-top: 45%; }
+    nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul {
+      margin-left: 20px; }
+      nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body ul li i {
+        font-size: 20pt;
+        padding-left: 5px; }
+    nav.khung .box10 #carouselExampleFade .carousel-inner .card-deck .card .card-body .btn {
+      margin-left: 33.3%; }
+  nav.khung .box11 {
+    width: 100%;
+    background-image: no-repeat;
+    height: 1100px;
+    background-size: 100% 1100px; }
+    nav.khung .box11 .col-md-12 {
+      height: 1100px; }
+      nav.khung .box11 .col-md-12 .col-md-6 .anh {
+        float: left;
+        width: 50%;
+        height: 500px; }
+        nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 {
+          margin-top: 20px; }
+          nav.khung .box11 .col-md-12 .col-md-6 .anh .col-md-2 img {
+            width: 120px; }
+      nav.khung .box11 .col-md-12 .col-md-6 #carouselExample {
+        height: 300px; }
+        nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.carousel-control-prev {
+          top: 260px;
+          left: 30%; }
+        nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.carousel-control-next {
+          top: 260px;
+          right: 30%; }
+        nav.khung .box11 .col-md-12 .col-md-6 #carouselExample a.icon {
+          left: 43.5%; } }
